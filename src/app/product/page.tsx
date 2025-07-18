@@ -9,6 +9,17 @@ export const metadata: Metadata = {
     openGraph:{
         title: "Products",
         description: "Explore our wide range of products available for purchase.",
+        url: "https://sovicheasok.info/products",
+        images: [
+            {
+                url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXJCoP24Rx_qV4cMEGVbMXBYk4o3E9btmUbg&s",
+                width: 1200,
+                height: 630,
+                alt: "Open Graph Image",
+            },
+        ],
+        locale: "en_US",
+        type: "website",
     }
 }
 

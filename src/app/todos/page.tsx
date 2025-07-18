@@ -1,6 +1,27 @@
 import TodoComponent from '@/components/todos/TodoComponent'
 import { TodoType } from '@/types/todoType';
+import { Metadata } from 'next';
 import React, { Suspense } from 'react'
+
+export const metadata: Metadata = {
+  title: "Todos",
+  description: "Manage your tasks efficiently with our Todo application.",
+  openGraph: {
+    title: "Todos",
+    description: "Manage your tasks efficiently with our Todo application.",
+    url: "https://sovicheasok.info/todos",
+    images: [
+      {
+        url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH-khGkK1wp8Y_nnP3td7fPv9jzPpb26deWw&s",
+        height: 630,
+        width: 1200,
+        alt: "Open Graph Image",
+      }
+    ],
+    locale: "en_US",
+    type: "website",
+  }
+}
 
 async function getTodo(): Promise<TodoType[]> {
   const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL_API}todos`);

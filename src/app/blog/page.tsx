@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "About",
     description: "Build and deploy on the AI Cloud. Vercel provides the developer tools and cloud infrastructure to build, scale, and secure a faster, more personalized web.",
-    url: "https://nextjs-fullstack-evening.vercel.app/about",
+    url: "https://sovicheasok.info/about",
     siteName: "Home",
     images: [
       {
