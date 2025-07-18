@@ -1,6 +1,7 @@
 import BlogCard from '@/components/blog/BlogCard'
 import { Metadata } from 'next';
 import React from 'react'
+
 export const metadata: Metadata = {
   title: "About",
   description: "Build and deploy on the AI Cloud. Vercel provides the developer tools and cloud infrastructure to build, scale, and secure a faster, more personalized web.",
