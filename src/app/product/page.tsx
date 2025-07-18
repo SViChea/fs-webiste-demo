@@ -9,7 +9,6 @@ export const metadata: Metadata = {
     openGraph:{
         title: "Products",
         description: "Explore our wide range of products available for purchase.",
-        
     }
 }
 
