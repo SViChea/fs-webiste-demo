@@ -2,4 +2,4 @@ User-Agent: *
 Allow: /
 Disallow: /private/dashboard
 
-Sitemap: 
+Sitemap: https://sovicheasok.info/sitemap.xml
