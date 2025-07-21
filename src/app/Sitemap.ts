@@ -31,12 +31,6 @@ export default function sitemap(): MetadataRoute.Sitemap{
             lastModified: new Date(),
             changeFrequency: 'weekly',
             priority: 0.6
-        },
-        {
-            url: 'https://www.sovicheasok.info/about',
-            lastModified: new Date(),
-            changeFrequency: 'weekly',
-            priority: 0.5
         }
     ]
 }
